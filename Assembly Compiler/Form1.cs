@@ -16,5 +16,20 @@ namespace Assembly_Compiler
         {
             InitializeComponent();
         }
+
+        private void add_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = textBox1.Text + "ADD ";
+        }
+
+        private void endl_Click(object sender, EventArgs e)
+        {
+            textBox1.AppendText("\r\n");
+        }
+
+        private void set_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = textBox1.Text + "SET ";
+        }
     }
 }
