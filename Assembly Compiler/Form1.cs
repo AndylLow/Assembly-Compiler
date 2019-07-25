@@ -12,6 +12,9 @@ namespace Assembly_Compiler
 {
     public partial class Form1 : Form
     {
+        static int PCounter;
+        static int[] StackReturn;
+
         public Form1()
         {
             InitializeComponent();
